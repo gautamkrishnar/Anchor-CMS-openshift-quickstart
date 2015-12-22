@@ -5,5 +5,5 @@
 # Use repository htaccess if exists 
 
 if [  -f ${OPENSHIFT_REPO_DIR}.openshift/config/.htaccess ]; then
-  cp -f ${OPENSHIFT_REPO_DIR}.openshift/config/.htaccess ${OPENSHIFT_REPO_DIR}/php/.htaccess
+  cp -fv ${OPENSHIFT_REPO_DIR}.openshift/config/.htaccess ${OPENSHIFT_REPO_DIR}/php/.htaccess
 fi
