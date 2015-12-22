@@ -3,5 +3,4 @@
 # be python, php, ruby, etc.
 #
 # Use repository htaccess 
-echo "executing build...."
-cp -fv ${OPENSHIFT_REPO_DIR}.openshift/config/.htaccess ${OPENSHIFT_REPO_DIR}/php/.htaccess
+cp -f ${OPENSHIFT_REPO_DIR}.openshift/config/.htaccess ${OPENSHIFT_REPO_DIR}/php/.htaccess
