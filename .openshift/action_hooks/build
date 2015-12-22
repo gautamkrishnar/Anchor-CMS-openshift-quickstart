@@ -3,7 +3,6 @@
 # be python, php, ruby, etc.
 #
 # Use repository htaccess if exists 
-install_dir=${OPENSHIFT_BUILD_DEPENDENCIES_DIR}${current_version}
 
 if [  -f ${OPENSHIFT_REPO_DIR}.openshift/config/.htaccess ]; then
   cp -f ${OPENSHIFT_REPO_DIR}.openshift/config/.htaccess ${OPENSHIFT_REPO_DIR}/php/.htaccess
