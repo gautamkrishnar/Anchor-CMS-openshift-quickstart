@@ -44,7 +44,7 @@ Head to your application at:
 
 To give your new Anchor site a web address of its own, add your desired alias:
 
-	rhc app add-alias -a grav --alias "$whatever.$mydomain.com"
+	rhc app add-alias -a anchor --alias "$whatever.$mydomain.com"
 
 Then add a cname entry in your domain's dns configuration pointing your alias to $whatever-$yourdomain.rhcloud.com.
 
