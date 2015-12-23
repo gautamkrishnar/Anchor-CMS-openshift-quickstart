@@ -7,7 +7,8 @@ Find out more about anchor CMS at: https://anchorcms.com/
 
 Create an account at http://openshift.redhat.com/
 
-[![Click to install OpenShift](http://launch-shifter.rhcloud.com/launch/light/Click to install.svg)](https://openshift.redhat.com/app/console/application_types/custom?cartridges[]=php-5.4&cartridges[]=mysql-5.5&initial_git_url=https://github.com/gautamkrishnar/Anchor-CMS-openshift-quickstart&name=anchor)
+<a href="https://openshift.redhat.com/app/console/application_types/custom?cartridges[]=php-5.4&cartridges[]=mysql-5.5&initial_git_url=https://github.com/gautamkrishnar/Anchor-CMS-openshift-quickstart&name=anchor" target="_blank">
+![Click to install OpenShift](http://launch-shifter.rhcloud.com/launch/light/Click to install.svg)</a>
 
 ### How to use
 You can install the anchor CMS by pointing your browser to : http://anchor-yourdomain.rhcloud.com/
