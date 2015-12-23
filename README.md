@@ -13,7 +13,9 @@ Create an account at http://openshift.redhat.com/
 ### How to use
 You can install the anchor CMS by pointing your browser to : http://anchor-yourdomain.rhcloud.com/
 
-Follow the ownscreen instructions
+Follow the ownscreen instructionsrd
+
+after the installation is complete you can access admin dashboard at : http://anchor-yourdomain.rhcloud.com/admin
 
 If you are experiencing any problems, please don't forget to open a [new issue](https://github.com/gautamkrishnar/Anchor-CMS-openshift-quickstart/issues/new) in this repository.
 ### Installing via the command line
