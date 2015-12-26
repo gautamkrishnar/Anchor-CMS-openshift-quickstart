@@ -16,13 +16,13 @@ echo "Creating persistent anchor config directory"
 if [ ! -d "$OPENSHIFT_DATA_DIR/anchor/config" ]; then
 	mkdir -p $OPENSHIFT_DATA_DIR/anchor/config
 	cp -rf $OPENSHIFT_REPO_DIR/php/anchor/config/* $OPENSHIFT_DATA_DIR/anchor/config/
-	rm -rdf $OPENSHIFT_DATA_DIR/anchor/config/
+	rm -rdf $OPENSHIFT_REPO_DIR/php/anchor/config/
 fi
 echo "Creating persistent anchor theme directory"
 if [ ! -d "$OPENSHIFT_DATA_DIR/anchor/config" ]; then
 	mkdir -p $OPENSHIFT_DATA_DIR/themes
 	cp -rf $OPENSHIFT_REPO_DIR/php/themes/* $OPENSHIFT_DATA_DIR/themes/
-	rm -rdf $OPENSHIFT_DATA_DIR/themes/
+	rm -rdf $OPENSHIFT_REPO_DIR/php/themes/
 fi
 echo "Symlinking the directories..."
 ln -sf $OPENSHIFT_DATA_DIR/content $OPENSHIFT_REPO_DIR/php/content
