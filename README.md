@@ -52,4 +52,4 @@ Then add a cname entry in your domain's dns configuration pointing your alias to
 Liked using Anchor CMS in openshift! Don't forget to spread the word by starring this repo.
 
 ### Contributors
-* [Alexandr](https://github.com/alexbagirov) : [Bug#2](https://github.com/gautamkrishnar/Anchor-CMS-openshift-quickstart/issues/2)
+* [Alexandr](https://github.com/alexbagirov) : [Bug#2](https://github.com/gautamkrishnar/Anchor-CMS-openshift-quickstart/issues/2) [Bug#3](https://github.com/gautamkrishnar/Anchor-CMS-openshift-quickstart/issues/3)
