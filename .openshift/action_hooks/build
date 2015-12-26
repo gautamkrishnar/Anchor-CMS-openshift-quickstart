@@ -8,11 +8,11 @@ cp -f ${OPENSHIFT_REPO_DIR}.openshift/config/.htaccess ${OPENSHIFT_REPO_DIR}/php
 # To keep data after a new push
 echo "Creating persistent anchor content directory"
 if [ ! -d "$OPENSHIFT_DATA_DIR/content" ]; then
-	mkdir -pv $OPENSHIFT_DATA_DIR/content
+	mkdir -p $OPENSHIFT_DATA_DIR/content
 fi
 echo "Creating persistent anchor config directory"
 if [ ! -d "$OPENSHIFT_DATA_DIR/anchor/config" ]; then
-	mkdir -pv $OPENSHIFT_DATA_DIR/anchor/config
+	mkdir -p $OPENSHIFT_DATA_DIR/anchor/config
 fi
 echo "Symlinking the directories..."
 ln -sfv $OPENSHIFT_DATA_DIR/content $OPENSHIFT_REPO_DIR/php/content
