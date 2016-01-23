@@ -1,5 +1,7 @@
 # Anchor CMS on openshift
 
+[![Join the chat at https://gitter.im/gautamkrishnar/Anchor-CMS-openshift-quickstart](https://badges.gitter.im/gautamkrishnar/Anchor-CMS-openshift-quickstart.svg)](https://gitter.im/gautamkrishnar/Anchor-CMS-openshift-quickstart?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Anchor is a super-simple, lightweight blog system, made to let you just write. Anchor gives you full freedom over your words. Just write in Markdown or HTML. This is a modified version of Anchor CMS that is optimized for openshift.
 Find out more about anchor CMS at: https://anchorcms.com/
 
